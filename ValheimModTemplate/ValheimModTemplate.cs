@@ -5,11 +5,12 @@ using UnityEngine;
 
 namespace ValheimModTemplate
 {
-    [BepInPlugin(ID, "Valheim Plus Build Expansion", version)]
+    [BepInPlugin(ID, title, version)]
     public class ValheimModTemplate : BaseUnityPlugin
     {
         public const string ID = "";
-        public const string version = "0.0.0.0";     
+        public const string version = "0.0.0.0";
+        public const string title = "Valheim Mod Template";
 
         public Harmony harmony;
         
