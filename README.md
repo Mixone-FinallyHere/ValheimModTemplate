@@ -1,0 +1,2 @@
+# ValheimModTemplate
+Valheim Mod Template
