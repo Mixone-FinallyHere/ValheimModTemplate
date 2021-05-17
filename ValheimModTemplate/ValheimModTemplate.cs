@@ -3,7 +3,7 @@ using BepInEx;
 using HarmonyLib;
 using UnityEngine;
 
-namespace ValheimModTemplate
+namespace $safeprojectname$
 {
     [BepInPlugin(ID, title, version)]
     public class ValheimModTemplate : BaseUnityPlugin
@@ -22,7 +22,7 @@ namespace ValheimModTemplate
             harmony.PatchAll();
             harmonyLog = Logger;
 
-            harmonyLog.LogDebug("ValheimModTemplate loaded.");
+            harmonyLog.LogDebug("$safeprojectname$ loaded.");
         }
     }
 
